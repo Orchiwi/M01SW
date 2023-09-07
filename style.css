@@ -17,3 +17,17 @@ img{float: right;
     width: 400px}
 ol{padding-left: 100px}
 ul{padding-left: 100px}
+#liste table{border-collapse: collapse;
+width: 400px;}
+#liste tr{  border: 1px;
+            border-color: #ddd;
+            padding: 8px;        }
+#liste td{  border: 1px;
+border-color: #ddd;
+padding: 8px;        }
+#pair{background-color: #F2F2F2 ;}
+#liste td:hover{background-color: #DDDDDD;}
+#liste th{text-align: left;
+padding: 12px 8px 20px 8px;
+background-color: #FF715B; 
+color: #ddd;}
