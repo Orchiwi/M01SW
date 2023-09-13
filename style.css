@@ -31,3 +31,27 @@ padding: 8px;        }
 padding: 12px 8px 20px 8px;
 background-color: #FF715B; 
 color: #ddd;}
+
+
+
+#message form{width: 400px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+#message label,select,input{display: block;
+width: 100%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+font-family: 'Courier New', Courier, monospace;
+color: #4C5454;
+font-size: 16px;}
+
+
+#message select,input{background-color: #FF715B;
+border: 1px solid #4C5454;
+padding-bottom: 5px;
+padding-top: 5px ;
+border-radius: 5px;}
+
+#message label[type="submit"],input[type="submit"]{margin-top: 30px;}
