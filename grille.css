@@ -1,0 +1,26 @@
+header {
+    grid-area: entete;
+   }
+   nav {
+    grid-area: navigation;
+   }
+   section {
+    grid-area: principale;
+   }
+   aside {
+    grid-area: liens;
+   }
+   footer {
+    grid-area: pied;
+   }
+   body {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "entete entete"
+    "navigation navigation" 
+    "principale liens"
+    "pied pied";
+    grid-template-rows: 150px 40px minmax(400px, auto) auto;
+    grid-template-columns: 1fr 20%;
+   }
+header,nav,section,aside,footer{border:1px solid #4C5454;}
