@@ -15,8 +15,6 @@ p{
 img{
     float: right;
     width: 400px}
-<<<<<<< HEAD
-<<<<<<< HEAD
 ol{padding-left: 100px}
 ul{padding-left: 100px}
 #liste table{border-collapse: collapse;
@@ -55,10 +53,6 @@ border: 1px solid #4C5454;
 padding-bottom: 5px;
 padding-top: 5px ;
 border-radius: 5px;}
-
-=======
-=======
->>>>>>> SW04
 ol{
     padding-left: 100px}
 ul{
@@ -102,8 +96,4 @@ ul{
     padding-bottom: 5px;
     padding-top: 5px ;
     border-radius: 5px;}
-<<<<<<< HEAD
->>>>>>> SW01
-=======
->>>>>>> SW04
 #message label[type="submit"],input[type="submit"]{margin-top: 30px;}
