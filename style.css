@@ -2,21 +2,21 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    font-size: 16px
+    font-size: 16px;
     color: #4C5454;}
-h1{
+#presentation h1{
     font-size: 22px;
     padding-left: 20px;}
-h2{
+#presentation h2{
     font-size: 20px;
     padding-left: 50px;}
-p{
+#presentation p{
     padding-left: 50px}
-img{
+#presentation img{
     float: right;
     width: 400px}
-ol{padding-left: 100px}
-ul{padding-left: 100px}
+#presentation ol{padding-left: 100px}
+#presentation ul{padding-left: 100px}
 #liste table{border-collapse: collapse;
 width: 400px;}
 #liste tr{  border: 1px;
@@ -97,3 +97,19 @@ ul{
     padding-top: 5px ;
     border-radius: 5px;}
 #message label[type="submit"],input[type="submit"]{margin-top: 30px;}
+
+#index header,nav,footer{
+    background-color: #FF715B;
+    color: white}
+#index h1{font-size: 40px;
+font-weight: bold;
+text-align: center;
+padding-top: 20px;
+font-variant: small-caps;}
+#index nav{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#p_in_nav{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;}
