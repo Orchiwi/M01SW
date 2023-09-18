@@ -96,8 +96,8 @@ ul{
     padding-bottom: 5px;
     padding-top: 5px ;
     border-radius: 5px;}
-#message label[type="submit"],input[type="submit"]{margin-top: 30px;}
-
+#message label[type="submit"],input[type="submit"]{margin-top: 30px;
+}
 #index header,nav,footer{
     background-color: #FF715B;
     color: white}
@@ -105,7 +105,8 @@ ul{
 font-weight: bold;
 text-align: center;
 padding-top: 20px;
-font-variant: small-caps;}
+font-variant: small-caps;
+}
 #index nav{
     margin-left: 20px;
     margin-right: 20px;
@@ -113,3 +114,34 @@ font-variant: small-caps;}
 #p_in_nav{
     margin: 0px 0px 0px 0px;
     padding: 10px 10px 10px 10px;}
+#index span{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+#nav span:hover{border-bottom: #DDDDDD 2px;
+    transition-duration: 3s;
+}
+#index section{
+    padding: 10px 10px 10px 10px;
+}
+#index aside{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: black;
+    background-image: linear-gradient(orange, white, orange);
+    border-radius: 10px;
+}
+#index footer{
+    text-align: center;
+}
+#index footer h1{
+    font-size: 22px;
+}
+#index a{
+    color:white
+}
