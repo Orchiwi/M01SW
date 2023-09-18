@@ -98,23 +98,17 @@ ul{
     border-radius: 5px;}
 #message label[type="submit"],input[type="submit"]{margin-top: 30px;
 }
-#index header,nav,footer{
+header,nav,footer{
     background-color: #FF715B;
-    color: white}
-#index h1{font-size: 40px;
+    color: white;
+}
+header h1{font-size: 40px;
 font-weight: bold;
 text-align: center;
 padding-top: 20px;
 font-variant: small-caps;
 }
-#index nav{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#p_in_nav{
-    margin: 0px 0px 0px 0px;
-    padding: 10px 10px 10px 10px;}
-#index span{
+span{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
@@ -122,26 +116,26 @@ font-variant: small-caps;
     font-variant: small-caps;
     cursor: pointer;
 }
-#nav span:hover{border-bottom: #DDDDDD 2px;
-    transition-duration: 3s;
+span:hover{border-bottom: 2px white solid;
+    transition: 0.3s;
 }
-#index section{
+section{
     padding: 10px 10px 10px 10px;
 }
-#index aside{
+aside{
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     font-size: 14px;
     color: black;
-    background-image: linear-gradient(orange, white, orange);
+    background-image: linear-gradient(#FF715B, rgb(255, 184, 184), #FF715B);
     border-radius: 10px;
 }
-#index footer{
+footer{
     text-align: center;
 }
-#index footer h1{
+footer h1{
     font-size: 22px;
 }
-#index a{
+a{
     color:white
 }
