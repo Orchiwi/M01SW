@@ -15,6 +15,11 @@ body{
 #presentation img{
     float: right;
     width: 400px}
+    @media screen and (orientation: portrait) {#presentation img{
+    display: block;
+    width: 80%;
+    margin: 5px auto 5px auto;
+    float: none;}}
 #presentation ol{padding-left: 100px}
 #presentation ul{padding-left: 100px}
 #liste table{border-collapse: collapse;
@@ -122,6 +127,9 @@ span:hover{border-bottom: 2px white solid;
 section{
     padding: 10px 10px 10px 10px;
 }
+@media screen and (orientation: portrait) {section{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 5px 10px 5px;}}
 aside{
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
@@ -141,3 +149,5 @@ a{
 }
 #hamburger{width: 80px;
     float: right;}
+    @media screen and (orientation: portrait){#presentation h1,h2,p{padding-left: 0px;}
+#presentation ul,ol{}}
