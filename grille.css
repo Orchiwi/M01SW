@@ -24,3 +24,16 @@ header {
     grid-template-columns: 1fr 20%;
    }
 header,nav,section,aside,footer{border:1px solid #4C5454;}
+
+@media screen and (orientation: portrait) {body{
+    display: grid;
+    width: 100%;
+    grid-template-areas: "entete"
+    "navigation" 
+    "principale"
+    "pied";
+    grid-template-rows: 100px auto auto auto;
+    grid-template-columns: 100%;
+}
+aside{display: none;}   
+}
