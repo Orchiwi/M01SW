@@ -157,6 +157,8 @@ a{
     color:white
 }
 #hamburger{width: 80px;
-    float: right;}
+    float: right;
+display: none;}
+    @media screen and (orientation: portrait){#hamburger{display: block;}}
     @media screen and (orientation: portrait){#presentation h1,h2,p{padding-left: 0px;}
 #presentation ul,ol{padding: 25px;}}
