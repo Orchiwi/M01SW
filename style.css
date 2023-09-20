@@ -65,6 +65,9 @@ ul{
 #liste table{
     border-collapse: collapse;
     width: 400px;}
+    @media screen and (orientation: portrait){#liste table{width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;}}
 #liste tr{
     border: 1px;
     border-color: #ddd;
@@ -103,6 +106,10 @@ ul{
     border-radius: 5px;}
 #message label[type="submit"],input[type="submit"]{margin-top: 30px;
 }
+    @media screen and (orientation: portrait){#message form{margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}}
 header,nav,footer{
     background-color: #FF715B;
     color: white;
@@ -150,4 +157,4 @@ a{
 #hamburger{width: 80px;
     float: right;}
     @media screen and (orientation: portrait){#presentation h1,h2,p{padding-left: 0px;}
-#presentation ul,ol{}}
+#presentation ul,ol{padding: 25px;}}
