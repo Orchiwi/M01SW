@@ -35,5 +35,5 @@ header,nav,section,aside,footer{border:1px solid #4C5454;}
     grid-template-rows: 100px auto auto auto;
     grid-template-columns: 100%;
 }
-aside{display: none;}   
+aside,nav{display: none;}   
 }
