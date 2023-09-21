@@ -8,8 +8,8 @@
     <body>
         <section id="message">
             <form action="rest.php" method="post">
-                <label for="afficheur">Sélectionner un afficheur : </label>
-                <select id="afficheur-select" name="color">
+                <label for="afficheur-select">Sélectionner un afficheur : </label>
+                <select id="afficheur-select" name="afficheur-select">
                     <option value="#CP A">CP A</option>
                     <option value="#CP B">CP B</B></option>
                     <option value="#CE1 A">CE1 A</option>
@@ -22,13 +22,13 @@
                     <option value="#CM2 B">CM2 B</option>
                 </select>
 
-                <label for="effetapparition">Sélectionner un effet d'apparition : </label>    
+                <label for="select-effetapparition">Sélectionner un effet d'apparition : </label>    
                 <select name="effetapparition" id="select-effetapparition">
                     <option value="FA">Immediate</option>
                     <option value="FB">Xopen</option>
                     <option value="FC">Curtain Up</option>
                     <option value="FD">Curtain Down</option>
-                    <option value="FE">Scroll Left</option>
+                    <option value="FE" selected>Scroll Left</option>
                     <option value="FF">Scroll Right</option>
                     <option value="FG">Vopen</option>
                     <option value="FH">Vclose</option>
@@ -46,7 +46,7 @@
 
                 <label for="select-effetaffichage">Sélectionner un effet d'affichage : </label>
                 <select name="select-effetaffichage" id="select-effetaffichage">
-                    <option value="MA">Normal</option>
+                    <option value="MA" selected>Normal</option>
                     <option value="MB">Blinking</option>
                     <option value="MC">Play song 1</option>
                     <option value="MD">Play song 2</option>
@@ -72,18 +72,18 @@
                 <select name="select-dureeaffichage" id="select-dureeaffichage">
                     <option value="WA">0.5</option>
                     <option value="WB">1</option>
-                    <option value="WC">2</option>
+                    <option value="WC" selected>2</option>
                     <option value="WD">3</option>
                     <option value="WZ">25</option>
 
                 </select>
-                <label for="afficheur">Sélectionner un effet de disparition : </label>
+                <label for="select-effetdisparition">Sélectionner un effet de disparition : </label>
                 <select name="select-effetdisparition" id="select-effetdisparition">
                     <option value="FA">Immediate</option>
                     <option value="FB">Xopen</option>
                     <option value="FC">Curtain Up</option>
                     <option value="FD">Curtain Down</option>
-                    <option value="FE">Scroll Left</option>
+                    <option value="FE" selected>Scroll Left</option>
                     <option value="FF">Scroll Right</option>
                     <option value="FG">Vopen</option>
                     <option value="FH">Vclose</option>

@@ -20,10 +20,10 @@ header {
     "navigation navigation" 
     "principale liens"
     "pied pied";
-    grid-template-rows: 150px 40px minmax(400px, auto) auto;
+    grid-template-rows: 150px 45px minmax(400px, auto) auto;
     grid-template-columns: 1fr 20%;
    }
-header,nav,section,aside,footer{border:1px solid #4C5454;}
+
 
 @media screen and (orientation: portrait) {body{
     display: grid;

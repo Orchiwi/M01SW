@@ -125,10 +125,11 @@ font-variant: small-caps;
 nav span{
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-variant:small-caps;
     cursor: pointer;
+
 }
 span:hover{border-bottom: 2px white solid;
     transition: 0.3s;
