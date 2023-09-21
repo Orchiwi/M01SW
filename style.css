@@ -112,10 +112,15 @@ ul{
     padding: 0px 0px 0px 0px;
     width: 100%;
 }}
-header,nav,footer{
+footer{
     background-color: #FF715B;
     color: white;
 }
+header{color:white;
+    background-image: linear-gradient(#f33316 10%,#FF715B);}
+
+nav{background-image: linear-gradient(#FF715B, #f33316);
+color: white;}
 header h1{font-size: 40px;
 font-weight: bold;
 text-align: center;
@@ -145,7 +150,7 @@ aside{
     padding: 10px 10px 10px 10px;
     font-size: 14px;
     color: black;
-    background-image: linear-gradient(#FF715B, rgb(255, 184, 184), #FF715B);
+    background-image: linear-gradient(#ff3300, rgb(255, 80, 80), #FF715B);
     border-radius: 10px;
 }
 footer{
