@@ -101,11 +101,12 @@ ul{
     color: #4C5454;
     font-size: 16px;}
 #message select,input{
-    background-color: #FF715B;
+    background-image: linear-gradient(270deg,#FF715B 30%,#f33316);
     border: 1px solid #4C5454;
     padding-bottom: 5px;
     padding-top: 5px ;
-    border-radius: 5px;}
+    border-radius: 5px;
+    color: black;}
 #message label[type="submit"],input[type="submit"]{margin-top: 30px;
 }
     @media screen and (orientation: portrait){#message form{margin: 0px 0px 0px 0px;
@@ -113,8 +114,9 @@ ul{
     width: 100%;
 }}
 footer{
-    background-color: #FF715B;
+    background-image: linear-gradient(#FF715B 30%,#f33316);
     color: white;
+    text-align: center;
 }
 header{color:white;
     background-image: linear-gradient(#f33316 10%,#FF715B);}
@@ -152,9 +154,6 @@ aside{
     color: black;
     background-image: linear-gradient(#ff3300, rgb(255, 80, 80), #FF715B);
     border-radius: 10px;
-}
-footer{
-    text-align: center;
 }
 footer h1{
     font-size: 22px;

@@ -7,10 +7,10 @@
     </head>
     <body>
         <section id="message">
-            <form action="rest.php" method="post">
+            <form action="rest.php" method="POST">
                 <label for="afficheur-select">Sélectionner un afficheur : </label>
-                <select id="afficheur-select" name="afficheur-select">
-                    <option value="#172.20.21.158">CP A</option>
+                <select id="afficheur-select" name="journal">
+                    <option value="172.20.21.158">CP A</option>
                     <option value="#CP B">CP B</B></option>
                     <option value="#CE1 A">CE1 A</option>
                     <option value="#CE1 B">CE1 B</option>
@@ -45,7 +45,7 @@
                 </select>
 
                 <label for="select-effetaffichage">Sélectionner un effet d'affichage : </label>
-                <select name="select-effetaffichage" id="select-effetaffichage">
+                <select name="effetaffichage" id="select-effetaffichage">
                     <option value="MA" selected>Normal</option>
                     <option value="MB">Blinking</option>
                     <option value="MC">Play song 1</option>
@@ -69,7 +69,7 @@
                     
                 </select>
                 <label for="select-dureeaffichage">Sélectionner une durée d'affichage : </label>
-                <select name="select-dureeaffichage" id="select-dureeaffichage">
+                <select name="dureeaffichage" id="select-dureeaffichage">
                     <option value="WA">0.5</option>
                     <option value="WB">1</option>
                     <option value="WC" selected>2</option>
@@ -78,7 +78,7 @@
 
                 </select>
                 <label for="select-effetdisparition">Sélectionner un effet de disparition : </label>
-                <select name="select-effetdisparition" id="select-effetdisparition">
+                <select name="effetdisparition" id="select-effetdisparition">
                     <option value="FA">Immediate</option>
                     <option value="FB">Xopen</option>
                     <option value="FC">Curtain Up</option>
@@ -93,7 +93,7 @@
                     </option>
                 </select>
                 <label for="text-select">Indiquez le message : </label>
-                <input type="text" id="text-select" name="text">
+                <input type="text" id="text-select" name="texte">
                 <input type="submit" value="Envoyer">
             </form>
         </section>
