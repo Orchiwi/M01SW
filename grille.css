@@ -16,10 +16,10 @@ header {
    body {
     display: grid;
     width: 100%;
-    grid-template-areas: "entete entete"
-    "navigation navigation" 
-    "principale liens"
-    "pied pied";
+    grid-template-areas:"entete entete"
+                        "navigation navigation" 
+                        "principale liens"
+                        "pied pied";
     grid-template-rows: 150px 45px minmax(400px, auto) auto;
     grid-template-columns: 1fr 20%;
    }
