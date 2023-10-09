@@ -1,11 +1,11 @@
-body{
+/*body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     font-size: 16px;
     color: #4C5454;}
 
-/* Presentation */
+
 #presentation h1{
     font-size: 22px;
     padding-left: 20px;}
@@ -25,10 +25,6 @@ body{
 #presentation ol{padding-left: 100px}
 #presentation ul{padding-left: 100px}
 
-/* Presentation */
-
-
-/* liste */
 
 #liste table{border-collapse: collapse;
 width: 400px;}
@@ -69,7 +65,6 @@ color: #ddd;}
     @media screen and (orientation: portrait){#liste table{width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;}}
-/* liste */
 
 #message form{width: 400px;
 margin-top: 100px;
@@ -84,7 +79,6 @@ font-family: 'Courier New', Courier, monospace;
 color: #4C5454;
 font-size: 16px;}
 
-/* Message*/
 
 #message select,input{background-color: #FF715B;
 border: 1px solid #4C5454;
@@ -120,9 +114,6 @@ border-radius: 5px;}
     width: 100%;
 }}
 
-/* Message */
-
-/* index */
 
 footer{
     background-image: linear-gradient(#FF715B 30%,#f33316);
@@ -173,7 +164,7 @@ footer h1{
 footer a{color:white
 }
 
-/* index */
+
 
 #hamburger{width: 80px;
     float: right;
@@ -181,3 +172,245 @@ display: none;}
     @media screen and (orientation: portrait){#hamburger{display: block;}}
     @media screen and (orientation: portrait){#presentation h1,h2,p{padding-left: 0px;}
 #presentation ul,ol{padding: 25px;}}
+*/
+
+
+
+
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #4C5454;
+}
+/* Sets the font family, margin, padding, font size, and font color for the body */
+
+#presentation h1 {
+    font-size: 22px;
+    padding-left: 20px;
+}
+/* Sets the font size and left padding for the h1 element inside #presentation */
+
+#presentation h2 {
+    font-size: 20px;
+    padding-left: 50px;
+}
+/* Sets the font size and left padding for the h2 element inside #presentation */
+
+#presentation p,
+#presentation ul,
+#presentation ol {
+    padding-left: 50px;
+}
+/* Sets the left padding for paragraphs, unordered lists, and ordered lists inside #presentation */
+
+#presentation img {
+    float: right;
+    width: 400px;
+}
+/* Floats the image to the right and sets its width to 400px inside #presentation */
+
+@media screen and (orientation: portrait) {
+    #presentation img {
+        display: block;
+        width: 80%;
+        margin: 5px auto;
+        float: none;
+    }
+
+    #presentation h1,
+    #presentation h2,
+    #presentation p,
+    #presentation ul,
+    #presentation ol {
+        padding-left: 0;
+    }
+}
+/* Adjusts the styles for #presentation when the screen orientation is portrait */
+
+#liste table {
+    border-collapse: collapse;
+    width: 400px;
+}
+/* Collapses the border and sets the width for tables inside #liste */
+
+#liste tr,
+#liste td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/* Sets the border and padding for table rows and table cells inside #liste */
+
+#pair {
+    background-color: #F2F2F2;
+}
+/* Sets the background color for elements with the id 'pair' */
+
+#liste td:hover {
+    background-color: #DDDDDD;
+}
+/* Sets the background color for table cells inside #liste when hovered */
+
+#liste th {
+    text-align: left;
+    padding: 12px 8px 20px;
+    background-image: linear-gradient(#f33316, #FF715B);
+    color: #ddd;
+}
+/* Sets the text alignment, padding, background image, and color for table headers inside #liste */
+
+#liste ol,
+#liste ul {
+    padding-left: 100px;
+}
+/* Sets the left padding for ordered lists and unordered lists inside #liste */
+
+@media screen and (orientation: portrait) {
+    #liste table {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+/* Adjusts the styles for #liste table when the screen orientation is portrait */
+
+#message form {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Sets the width and margin for forms inside #message */
+
+#message label,
+#message select,
+#message input {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4C5454;
+    font-size: 16px;
+}
+/* Sets the display, width, margin, padding, font family, color, and font size for labels, select elements, and input elements inside #message */
+
+#message select,
+#message input {
+    background-color: #FF715B;
+    border: 1px solid #4C5454;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Sets the background color, border, padding, and border radius for select elements and input elements inside #message */
+
+#message label[type="submit"],
+input[type="submit"] {
+    margin-top: 30px;
+}
+/* Sets the margin top for labels with type "submit" and input elements with type "submit" inside #message */
+
+@media screen and (orientation: portrait) {
+    #message form {
+        margin: 20px 0;
+    }
+}
+/* Adjusts the styles for #message form when the screen orientation is portrait */
+
+footer {
+    background-image: linear-gradient(#FF715B, #f33316);
+    color: white;
+    text-align: center;
+}
+/* Sets the background image, color, and text alignment for the footer */
+
+header {
+    color: white;
+    background-image: linear-gradient(#f33316, #FF715B);
+}
+/* Sets the color and background image for the header */
+
+nav {
+    background-image: linear-gradient(#FF715B, #f33316);
+    color: white;
+}
+/* Sets the background image and color for the navigation */
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+/* Sets the font size, font weight, text alignment, padding top, and font variant for h1 element inside the header */
+
+nav span {
+    padding: 0 30px;
+    font-size: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+/* Sets the padding, font size, text alignment, font variant, and cursor for spans inside the navigation */
+
+span:hover {
+    border-bottom: 2px white solid;
+    transition: 0.3s;
+}
+/* Sets the bottom border and transition effect for spans when hovered */
+
+section {
+    padding: 10px;
+}
+/* Sets the padding for sections */
+
+@media screen and (orientation: portrait) {
+    section {
+        margin: 0;
+        padding: 10px 5px;
+    }
+}
+/* Adjusts the styles for sections when the screen orientation is portrait */
+
+aside {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    background-image: linear-gradient(#ff3300, rgb(255, 80, 80), #FF715B);
+    border-radius: 20px;
+}
+/* Sets the margin, padding, font size, color, background image, and border radius for aside elements */
+
+aside a {
+    color: rgb(0, 4, 255);
+}
+/* Sets the color for links inside aside elements */
+
+footer h1 {
+    font-size: 22px;
+}
+/* Sets the font size for h1 element inside the footer */
+
+footer a {
+    color: white;
+}
+/* Sets the color for links inside the footer */
+
+#hamburger {
+    width: 80px;
+    float: right;
+    display: none;
+}
+/* Sets the width, float, and display for the element with id 'hamburger' */
+
+@media screen and (orientation: portrait) {
+    #hamburger {
+        display: block;
+    }
+}
+/* Adjusts the styles for the element with id 'hamburger' when the screen orientation is portrait */
