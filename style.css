@@ -1,183 +1,306 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    font-size: 16px;
-    color: #4C5454;}
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 16px;
+  color: #4c5454;
+}
 
 /* Presentation */
-#presentation h1{
-    font-size: 22px;
-    padding-left: 20px;}
-#presentation h2{
-    font-size: 20px;
-    padding-left: 50px;}
-#presentation p{
-    padding-left: 50px}
-#presentation img{
-    float: right;
-    width: 400px}
-    @media screen and (orientation: portrait) {#presentation img{
+#presentation h1 {
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+#presentation h2 {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+#presentation p {
+  padding-left: 50px;
+}
+
+#presentation img {
+  float: right;
+  width: 400px;
+}
+
+@media screen and (orientation: portrait) {
+  #presentation img {
     display: block;
     width: 80%;
     margin: 5px auto 5px auto;
-    float: none;}}
-#presentation ol{padding-left: 100px}
-#presentation ul{padding-left: 100px}
+    float: none;
+  }
+}
+
+#presentation ol {
+  padding-left: 100px;
+}
+
+#presentation ul {
+  padding-left: 100px;
+}
 
 /* Presentation */
 
-
 /* liste */
 
-#liste table{border-collapse: collapse;
-width: 400px;}
-#liste tr{  border: 1px;
-            border-color: #ddd;
-            padding: 8px;}
-#liste td{  border: 1px;
-border-color: #ddd;
-padding: 8px;}
-#pair{background-color: #F2F2F2 ;}
-#liste td:hover{background-color: #DDDDDD;}
-#liste th{text-align: left;
-padding: 12px 8px 20px 8px;
-background-image: linear-gradient(#f33316,#FF715B); 
-color: #ddd;}
-#liste tr{
-    border: 1px;
-    border-color: #ddd;
-    padding: 8px;}
-#liste td{
-    border: 1px;
-    border-color: #ddd;
-    padding: 8px;}
-#liste td:hover{
-    background-color:#DDDDDD;}
-#liste th{
-    text-align: left;
-    padding: 12px 8px 20px 8px;
-    background-color: #FF715B; 
-    color: #ddd;}
-#liste ol{
-    padding-left: 100px}
-#liste ul{
-    padding-left: 100px}
-#liste table{
-    border-collapse: collapse;
-    width: 400px;}
-    @media screen and (orientation: portrait){#liste table{width: 100%;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;}}
-/* liste */
-
-#message form{width: 400px;
-margin-top: 100px;
-margin-left: auto;
-margin-right: auto;
+#liste table {
+  border-collapse: collapse;
+  width: 400px;
 }
-#message label,select,input{display: block;
-width: 100%;
-margin: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
-font-family: 'Courier New', Courier, monospace;
-color: #4C5454;
-font-size: 16px;}
+
+#liste tr {
+  border: 1px;
+  border-color: #ddd;
+  padding: 8px;
+}
+
+#liste td {
+  border: 1px;
+  border-color: #ddd;
+  padding: 8px;
+}
+
+#pair {
+  background-color: #f2f2f2;
+}
+
+#liste td:hover {
+  background-color: #dddddd;
+}
+
+#liste th {
+  text-align: left;
+  padding: 12px 8px 20px 8px;
+  background-image: linear-gradient(#f33316, #ff715b);
+  color: #ddd;
+}
+
+#liste tr {
+  border: 1px;
+  border-color: #ddd;
+  padding: 8px;
+}
+
+#liste td {
+  border: 1px;
+  border-color: #ddd;
+  padding: 8px;
+}
+
+#liste td:hover {
+  background-color: #dddddd;
+}
+
+#liste th {
+  text-align: left;
+  padding: 12px 8px 20px 8px;
+  background-color: #ff715b;
+  color: #ddd;
+}
+
+#liste ol {
+  padding-left: 100px;
+}
+
+#liste ul {
+  padding-left: 100px;
+}
+
+#liste table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+@media screen and (orientation: portrait) {
+  #liste table {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+/* liste */
+
+#message form {
+  width: 400px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message label,
+select,
+input {
+  display: block;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Courier New", Courier, monospace;
+  color: #4c5454;
+  font-size: 16px;
+}
 
 /* Message*/
 
-#message select,input{background-color: #FF715B;
-border: 1px solid #4C5454;
-padding-bottom: 5px;
-padding-top: 5px ;
-border-radius: 5px;}
-#message form{
-    width: 400px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;}
-    @media screen and (orientation: portrait){#message form{width: 100%;
-        margin: 20px 0px 20px 0px;}}
-#message label,select,input{
-    display: block;
+#message select,
+input {
+  background-color: #ff715b;
+  border: 1px solid #4c5454;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+#message form {
+  width: 400px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (orientation: portrait) {
+  #message form {
     width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+#message label,
+select,
+input {
+  display: block;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Courier New", Courier, monospace;
+  color: #4c5454;
+  font-size: 16px;
+}
+
+#message select,
+input {
+  background-image: linear-gradient(270deg, #ff715b 30%, #f33316);
+  border: 1px solid #4c5454;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+#message label[type="submit"],
+input[type="submit"] {
+  margin-top: 30px;
+}
+
+@media screen and (orientation: portrait) {
+  #message form {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #4C5454;
-    font-size: 16px;}
-#message select,input{
-    background-image: linear-gradient(270deg,#FF715B 30%,#f33316);
-    border: 1px solid #4C5454;
-    padding-bottom: 5px;
-    padding-top: 5px ;
-    border-radius: 5px;
-    color: black;}
-#message label[type="submit"],input[type="submit"]{margin-top: 30px;
-}
-    @media screen and (orientation: portrait){#message form{margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
     width: 100%;
-}}
+  }
+}
 
 /* Message */
 
 /* index */
 
-footer{
-    background-image: linear-gradient(#FF715B 30%,#f33316);
-    color: white;
-    text-align: center;
+footer {
+  background-image: linear-gradient(#ff715b 30%, #f33316);
+  color: white;
+  text-align: center;
 }
-header{color:white;
-    background-image: linear-gradient(#f33316 10%,#FF715B);}
 
-nav{background-image: linear-gradient(#FF715B, #f33316);
-color: white;}
-header h1{font-size: 40px;
-font-weight: bold;
-text-align: center;
-padding-top: 20px;
-font-variant: small-caps;
+header {
+  color: white;
+  background-image: linear-gradient(#f33316 10%, #ff715b);
 }
-nav span{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 20px;
-    text-align: center;
-    font-variant:small-caps;
-    cursor: pointer;
 
+nav {
+  background-image: linear-gradient(#ff715b, #f33316);
+  color: white;
 }
-span:hover{border-bottom: 2px white solid;
-    transition: 0.3s;
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  font-variant: small-caps;
 }
-section{
-    padding: 10px 10px 10px 10px;
+
+nav span {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-variant: small-caps;
+  cursor: pointer;
 }
-@media screen and (orientation: portrait) {section{
+
+span:hover {
+  border-bottom: 2px white solid;
+  transition: 0.3s;
+}
+
+section {
+  padding: 10px 10px 10px 10px;
+}
+
+@media screen and (orientation: portrait) {
+  section {
     margin: 0px 0px 0px 0px;
-    padding: 10px 5px 10px 5px;}}
-aside{
-    margin: 10px;
-    padding: 10px;
-    font-size: 14px;
-    color: black;
-    background-image: linear-gradient(#ff3300, rgb(255, 80, 80), #FF715B);
-    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+  }
 }
-aside a{color:rgb(0, 4, 255)}
-footer h1{
-    font-size: 22px;
+
+aside {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  background-image: linear-gradient(#ff3300, rgb(255, 80, 80), #ff715b);
+  border-radius: 20px;
 }
-footer a{color:white
+
+aside a {
+  color: rgb(0, 4, 255);
+}
+
+footer h1 {
+  font-size: 22px;
+}
+
+footer a {
+  color: white;
 }
 
 /* index */
 
-#hamburger{width: 80px;
-    float: right;
-display: none;}
-    @media screen and (orientation: portrait){#hamburger{display: block;}}
-    @media screen and (orientation: portrait){#presentation h1,h2,p{padding-left: 0px;}
-#presentation ul,ol{padding: 25px;}}
+#hamburger {
+  width: 80px;
+  float: right;
+  display: none;
+}
+
+@media screen and (orientation: portrait) {
+  #hamburger {
+    display: block;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  #presentation h1,
+  h2,
+  p {
+    padding-left: 0px;
+  }
+
+  #presentation ul,
+  ol {
+    padding: 25px;
+  }
+}
